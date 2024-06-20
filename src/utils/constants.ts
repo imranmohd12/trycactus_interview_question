@@ -36,3 +36,18 @@ export const NAVBARITEMS = [
         active: false,
     }
 ]
+
+export const RATEADJUSTMENLIST = [
+    "Every Month",
+    "Every 3 Months",
+    "Every 6 Months",
+    "Every 9 Months",
+    "Every 12 Months"
+]
+
+export const CALENDARTERMSOPTIONs = [
+    "Days",
+    "Weeks",
+    "Months",
+    "Years"
+]
