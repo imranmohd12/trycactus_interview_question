@@ -1,4 +1,5 @@
 import { CALENDARTERMSOPTIONs, RATEADJUSTMENLIST } from "../../../utils/constants"
+import Button from "../../formelements/Button"
 import CurrencyInput from "../../formelements/CurrencyInput"
 import Dropdown from "../../formelements/Dropdown"
 import InputAndOption from "../../formelements/InputAndOption"
@@ -39,7 +40,10 @@ const DebtForm = () => {
                 <InputAndOption optionList={CALENDARTERMSOPTIONs} labelName="Ammortization" />
                 <CurrencyInput labelName="Financing Fees(optional)" currency="$" />
             </div>
-
+            <div className="flex justify-end gap-[10px]">
+                <Button value="Add Another Debt" styleClasses="border border-inputbordergray" />
+                <Button value="Continue" styleClasses="bg-black text-white" />
+            </div>
         </form>
 
     )
