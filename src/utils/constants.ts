@@ -51,3 +51,11 @@ export const CALENDARTERMSOPTIONs = [
     "Months",
     "Years"
 ]
+
+export const STEPS = [
+    "Property details",
+    "Rent roll",
+    "Income and expences",
+    "Finacing",
+    "Ownership structure"
+]
