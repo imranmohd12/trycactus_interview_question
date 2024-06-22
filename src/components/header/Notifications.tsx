@@ -1,9 +1,7 @@
 import bellicon from '../../assets/bell.svg';
 
-type notificationPropsType = {
-    count?: Number
-}
-const Notifications = ({ count }: notificationPropsType) => {
+
+const Notifications = () => {
 
     return <img src={bellicon} />
 }

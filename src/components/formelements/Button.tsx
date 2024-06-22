@@ -1,4 +1,3 @@
-import { SyntheticEvent } from "react"
 
 
 type buttonPropType = {
@@ -8,7 +7,7 @@ type buttonPropType = {
 }
 
 const Button = ({ value, styleClasses = "", handleClick = () => { } }: buttonPropType) => {
-    const callingHandleClick = (e: SyntheticEvent) => {
+    const callingHandleClick = () => {
         console.log("called button click")
         handleClick();
     }

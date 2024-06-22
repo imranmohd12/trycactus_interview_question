@@ -7,7 +7,7 @@ const HeaderRightComponents = () => {
 
     return <div className="flex gap-[20px]">
         <Gift money={0} />
-        <Notifications count={0} />
+        <Notifications />
         <Profile username="TL" />
     </div>
 }

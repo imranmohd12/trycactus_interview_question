@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { incrementStepper } from "../../store/stepperSlice";
 
 const Stepper = () => {
-    const [steps, setSteps] = useState(STEPS);
+    const [steps] = useState(STEPS);
     const dispatch = useDispatch();
     const currentstepper = useSelector((state: any) => {
         return state.currentstepper;
