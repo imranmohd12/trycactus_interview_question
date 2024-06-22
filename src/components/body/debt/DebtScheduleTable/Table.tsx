@@ -11,7 +11,7 @@ const Table = () => {
         setRows(MONTHLYDATA.data);
     }, [])
     return (
-        <table className="bg-white px-[10px] ml-[20px] rounded-[8px] w-full">
+        <table className="bg-white px-[10px] ml-[20px] rounded-[8px] w-[90%]">
             <thead>
                 <tr className="border-b border-inputbordergray">
                     {columns.length > 0
