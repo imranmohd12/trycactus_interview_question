@@ -11,7 +11,8 @@ export default {
         cactusgreen: "#28AEAE",
         labelgray: "#8392AA",
         inputbordergray: "#DBE2ED",
-        tabgray: "#C0CBDA"
+        tabgray: "#C0CBDA",
+        bggreen: "#EDFDFD",
       }
 
     },

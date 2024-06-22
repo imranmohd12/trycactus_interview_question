@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import backarrow from '../../../assets/backarrow.svg';
 import Stepper from './Stepper';
-import FinancingForm from './FinancingForm';
+import FormSection from './FormSection';
 
 const AddProperty = () => {
     return (
@@ -12,7 +12,7 @@ const AddProperty = () => {
             </Link>
             <div className='bg-white flex'>
                 <Stepper />
-                <FinancingForm />
+                <FormSection />
             </div>
 
         </div>

@@ -7,7 +7,11 @@ import PostfixInput from "../../formelements/PostfixInput"
 import TextInput from "../../formelements/TextInput"
 import ToggleButton from "../../formelements/ToggleButton"
 
-const DebtForm = () => {
+type debtFormPropType = {
+    handleContinueBtn: () => void
+}
+
+const DebtForm = ({ handleContinueBtn }: debtFormPropType) => {
     return (
         <form className="flex flex-col gap-[32px] border-l border-inputbordergray my-[20px]">
             <div className="flex gap-[16px] border-b border-inputbordergray p-[20px] flex-wrap">
@@ -42,7 +46,7 @@ const DebtForm = () => {
             </div>
             <div className="flex justify-end gap-[10px]">
                 <Button value="Add Another Debt" styleClasses="border border-inputbordergray" />
-                <Button value="Continue" styleClasses="bg-black text-white" />
+                <Button value="Continue" styleClasses="bg-black text-white" handleClick={handleContinueBtn} />
             </div>
         </form>
 

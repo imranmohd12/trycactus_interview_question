@@ -10,6 +10,8 @@ import Underwriting from './components/body/underwriting/Underwriting.tsx'
 import Contacts from './components/body/contacts/Contacts.tsx'
 import Reports from './components/body/reports/Reports.tsx'
 import AddProperty from './components/body/portfolio/AddProperty.tsx'
+import { Provider } from 'react-redux'
+import store from './components/store/store.ts'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/dashboard',
+        path: '/',
         element: <Dashboard />
       },
       {
@@ -49,6 +51,8 @@ const router = createBrowserRouter([
 ])
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>,
 )

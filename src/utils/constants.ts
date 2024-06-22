@@ -6,7 +6,7 @@ export type navBarItemType = {
 }
 export const NAVBARITEMS = [
     {
-        route: "/dashboard",
+        route: "/",
         navname: "Dashboard",
         active: true,
     },
@@ -59,3 +59,211 @@ export const STEPS = [
     "Finacing",
     "Ownership structure"
 ]
+
+export type columntype = {
+    displayName: string,
+    key: string,
+}
+
+export const MONTHLYDATA = {
+    columns: [
+        {
+            displayName: "Month",
+            key: "month"
+        },
+        {
+            displayName: "Date",
+            key: "date"
+        },
+        {
+            displayName: "Monthly Payment",
+            key: "monthlyPayment"
+        },
+        {
+            displayName: "Interest",
+            key: "interest"
+        },
+        {
+            displayName: "Principal Pay Down",
+            key: "principalPayDown"
+        },
+        {
+            displayName: "Ending Principal",
+            key: "endingPrincipal"
+        },
+        {
+            displayName: "Cumulative Interest",
+            key: "cumulativeInterest"
+        }
+    ],
+
+    data: [{
+        month: 1,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 2,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 3,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 4,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 5,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 6,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 17,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 8,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 9,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 10,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 11,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 12,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 13,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    },
+    {
+        month: 14,
+        date: "May 2021",
+        monthlyPayment: 3312000,
+        interest: {
+            amount: 3312000,
+            percentage: 1.23,
+        },
+        principalPayDown: 3312000,
+        endingPrincipal: 449124,
+        cumulativeInterest: 844
+    }]
+
+}
